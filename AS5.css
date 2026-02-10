@@ -51,7 +51,7 @@ nav ul li a {
     color: rgb(255, 255, 255);
     background-image: linear-gradient(45deg, #40ce53 ,#99dd9d);
     font-size: 14px;
-    border-radius: 30px;
+    border-radius: 20px;
     border-top-right-radius: 0;
     transition: 0.5s;
 }
@@ -111,4 +111,3 @@ nav ul li a {
         transform: translateY(0px);
     }
 }
-
