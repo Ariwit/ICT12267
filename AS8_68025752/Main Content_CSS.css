@@ -1,0 +1,27 @@
+/* ระยะห่างระหว่างส่วน */
+    section {
+      padding: 60px 0;
+    }
+
+  .footer {
+    background: #212529;;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;;
+  }
+
+  .headft {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .ftleft {
+    width: 500px;
+  }
+
+   .ftright {
+    width: 500px;
+  }
