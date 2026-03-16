@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Movie World</title>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="test.css">
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">
+<img src="image/logo.jpg" width="40"> MovieWeb
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+ภาพยนตร์
+</a>
+
+<ul class="dropdown-menu">
+
+<li><a class="dropdown-item">The First Slam Dunk</a></li>
+<li><a class="dropdown-item">F1</a></li>
+<li><a class="dropdown-item">The Black Phone 2</a></li>
+
+</ul>
+
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#about">เกี่ยวกับเรา</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" data-bs-toggle="modal" data-bs-target="#contact">
+ติดต่อเรา
+</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+
+</nav>
+
+<!-- Banner -->
+
+<section class="banner">
+
+<div class="text-center">
+
+<h1>Movie World</h1>
+<p>รวมภาพยนตร์ที่คุณไม่ควรพลาด</p>
+
+</div>
+
+</section>
+
+<!-- Movie Cards -->
+
+<section class="container my-5">
+
+<h2 class="text-center mb-4">ภาพยนตร์แนะนำ</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="image/Slamdunk.jpg">
+
+<div class="card-body text-center">
+
+<h5>The First Slam Dunk</h5>
+
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#movie1">
+ดูรายละเอียด
+</button>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="image/F1.jpg">
+
+<div class="card-body text-center">
+
+<h5>F1</h5>
+
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#movie2">
+ดูรายละเอียด
+</button>
+
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="image/Black_Phone_2_poster.jpg">
+
+<div class="card-body text-center">
+
+<h5>The Black Phone 2</h5>
+
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#movie3">
+ดูรายละเอียด
+</button>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- MODAL MOVIE 1 -->
+
+<div class="modal fade" id="movie1">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h5 class="modal-title">The First Slam Dunk</h5>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<img src="image/Slamdunk.jpg" class="img-fluid mb-3">
+
+<p><b>ชื่อภาพยนตร์ :</b> The First Slam Dunk</p>
+<p><b>ผู้กำกับ :</b> Takehiko Inoue</p>
+<p><b>นักแสดงนำ :</b> Ryota Miyagi, Hanamichi Sakuragi</p>
+
+<p><b>เนื้อเรื่องย่อ :</b></p>
+
+<p>
+เรื่องราวการแข่งขันบาสเกตบอลของทีมโชโฮคุ
+ที่ต้องเผชิญหน้ากับทีมแชมป์ระดับประเทศ
+พร้อมกับเรื่องราวชีวิตของผู้เล่นแต่ละคน
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- MODAL MOVIE 2 -->
+
+<div class="modal fade" id="movie2">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h5 class="modal-title">F1</h5>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<img src="image/F1.jpg" class="img-fluid mb-3">
+
+<p><b>ชื่อภาพยนตร์ :</b> F1</p>
+<p><b>ผู้กำกับ :</b> Joseph Kosinski</p>
+<p><b>นักแสดงนำ :</b> Brad Pitt</p>
+
+<p><b>เนื้อเรื่องย่อ :</b></p>
+
+<p>
+เรื่องราวของนักแข่งรถ Formula 1
+ที่ต้องต่อสู้กับความกดดันในสนามแข่ง
+และพิสูจน์ตัวเองในโลกของความเร็ว
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- MODAL MOVIE 3 -->
+
+<div class="modal fade" id="movie3">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h5 class="modal-title">The Black Phone 2</h5>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<img src="image/Black_Phone_2_poster.jpg" class="img-fluid mb-3">
+
+<p><b>ชื่อภาพยนตร์ :</b> The Black Phone 2</p>
+<p><b>ผู้กำกับ :</b> Scott Derrickson</p>
+<p><b>นักแสดงนำ :</b> Ethan Hawke</p>
+
+<p><b>เนื้อเรื่องย่อ :</b></p>
+
+<p>
+ภาคต่อของภาพยนตร์สยองขวัญเกี่ยวกับเด็กที่ถูกลักพาตัว
+และโทรศัพท์ปริศนาที่สามารถติดต่อกับวิญญาณของเหยื่อก่อนหน้าได้
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- About -->
+
+<section id="about" class="container my-5 text-center">
+
+<h2>เกี่ยวกับเรา</h2>
+
+<p>
+เว็บไซต์นี้รวบรวมข้อมูลภาพยนตร์ที่น่าสนใจ
+เพื่อให้ผู้ใช้งานสามารถค้นหาภาพยนตร์ได้ง่าย
+</p>
+
+</section>
+
+<!-- Contact Modal -->
+
+<div class="modal fade" id="contact">
+
+<div class="modal-dialog">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h5 class="modal-title">ติดต่อเรา</h5>
+
+<button class="btn-close" data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body">
+
+<form>
+
+<div class="mb-3">
+
+<label>ชื่อ-นามสกุล</label>
+<input type="text" class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label>Email</label>
+<input type="email" class="form-control">
+
+</div>
+
+<div class="mb-3">
+
+<label>ข้อความ</label>
+<textarea class="form-control" rows="3"></textarea>
+
+</div>
+
+<button class="btn btn-primary w-100">
+ส่งข้อมูล
+</button>
+
+</form>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer>
+
+<div>
+
+<a href="#"><img src="image/facebook.png" class="social"></a>
+<a href="#"><img src="image/instagram.png" class="social"></a>
+<a href="#"><img src="image/line.png" class="social"></a>
+
+</div>
+
+<p>© 2025 Movie By 68025752</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
